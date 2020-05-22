@@ -11,7 +11,7 @@ export class AppComponent implements OnInit{
   title = 'location-client';
   message: any;
 
-  location: Location = new Location('', '', 0);
+  location: Location = new Location(0, 0, 0);
   constructor(private service: LocationService) {
   }
   ngOnInit() {
